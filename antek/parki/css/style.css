@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: lightgreen;
+	font-size: 60px;
+	font-family: 'Comfortaa';
+}
+
+.linijka {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+
+.linijka:hover {
+	background-color: lightgreen;
+}
+
+span {
+	font-size: 50px;
+	text-align: right;
+	padding: 50px;
+}
+/* div {
+    text-align: right;
+} */
+
+/* p {
+    text-align: justify;
+} */
+strong {
+	color: black;
+}
+
+a {
+	color: brown;
+	text-decoration: none;
+}
+
+.parki {
+	color: brown;
+} 
+
+ul {
+	margin: 20px;
+}
+
+.nagłówek {
+	transition: 3s;
+}
+
+.nagłówek:hover {
+	background-color: lightyellow;
+	color: darkgreen;
+}
+
+
+
+
